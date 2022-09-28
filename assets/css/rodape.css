@@ -1,0 +1,12 @@
+.rodape{
+    background-color: var(--branco-escuro);
+    border-top: 1px solid var(--cinza);
+}
+
+.rodape__destaque{
+    padding: 1em;
+}
+
+.rodape__lista{
+    display: none;
+}

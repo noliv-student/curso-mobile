@@ -1,0 +1,196 @@
+@media screen and (min-width: 1024px) {
+    /* Geral */
+    .transparente{
+        display: none;
+    }
+    /* Cabeçalho */
+    .container__titulo{
+        display: block;
+        font-family: var(--fonte-logo);
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .opcoes{
+        display: flex;
+    }
+    .opcoes__item{
+        padding: 2em 1em;
+        text-transform: uppercase;
+    }
+    .opcoes__link{
+        color: var(--preto);
+        text-decoration: none;
+    }
+    .menu__botao:checked~.opcoes__rotulo > .opcoes__item{
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+    .menu__lista{
+        width: auto;
+    }
+    .listaMenu__item:hover{
+        background: var(--azul-degrade);
+    }
+    .listaMenu__item:hover > .listaMenu__link{
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
+
+    }
+    /* Banner Principal*/
+    .banner__titulo{
+        font-size: 36px;
+    }
+    .banner__pesquisa{
+        width: 50%;
+    }
+    .banner__pesquisa::placeholder{
+        background-position: 6em;
+    }
+    /*Carrossel*/
+    .carrossel__titulo{
+        font-size: 26px;
+    }
+    .swiper-pagination{
+        margin: 2em 0 3em 0;
+    }
+    .swiper{
+        width: 60%;
+    }
+    .swiper-button-prev,.swiper-button-next{
+        display: block;
+        top: 60%;
+    }
+    .card{
+        width: 40%;
+        margin: 2em auto;
+    }
+    .card__botao:active {
+        background-color: var(--azul);
+    }
+    /* Topicos */
+    .topicos__titulo,.topicos__botao{
+        font-size: 24px;
+    }
+    .topicos__botao:hover {
+        color: var(--laranja);
+        background-color: var(--branco);
+        }
+    /* Contato */
+    .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contato__descricao{
+        margin-right: 1em;
+        width: 30%;
+    }
+    .contato__titulo{
+        font-size: 24px;
+    }
+    .contato__input{
+        width: 30%;
+    }
+    /* Rodape */
+    .rodape{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1em;
+    }
+    .rodape__destaque{
+        font-size: 24px;
+    }
+    .rodape__lista{
+        display: block;
+    }
+    .rodape__item{
+        display: flex;
+        align-items: center;
+        padding: .5em;
+    }
+    .rodape__titulo{
+        font-size: 14px;
+        color: var(--cinza);
+        text-transform: uppercase;
+    }
+    .rodape__link{
+        margin-left: .5em;
+        font-size: 14px;
+        color: var(--cinza-escuro);
+        text-decoration: none;
+    }
+    .rodape__link:hover {
+        color: var(--laranja);
+        }
+}
+
+@media screen and (min-width: 1728px) {
+    /* Cabeçalho */
+    .menu__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+    .menu__texto{
+        display: block;
+    }
+    .cabecalho{
+        padding: 0 2em;
+    }
+    .opcoes{
+        margin-right: auto;
+    }
+    /* Banner */
+    .banner{
+        padding: 6em 0;
+    }
+    .banner__pesquisa{
+        width: 35%;
+    }
+    .banner__pesquisa::placeholder{
+        background-position: 10em;
+    }
+    /* Carrossel */
+    .carrossel__container{
+        display: flex;
+        align-items: center;
+        margin: 0 20vw 3em 20vw;
+        justify-content: space-between;
+    }
+    .swiper-pagination{
+        margin: 1em 0;
+    }
+    .swiper{
+        width: 50%;
+    }
+    .card{
+        width: 60%;
+        margin-left: 3em;
+    }
+    .card__titulo{
+        font-size: 32px;
+    }
+    .card__Texto{
+        font-size: 16px;
+    }
+    .descricao{
+        margin-right: 2em;
+    }
+    /* Topicos */
+    .topicos{
+        padding: 3em 25vw;
+    }
+    /* Contato */
+    .contato{
+        padding: 3em 20vw;
+    }
+    /* Rodape */
+    .rodape{
+        padding: 3em 0;
+    }
+    .rodape__lista{
+        border-left: 1px solid var(--cinza);
+        padding-left: 1em;
+    }
+}
